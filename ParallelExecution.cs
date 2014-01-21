@@ -2,6 +2,7 @@
 
 #if PARALLEL
 using System.Threading;
+using System.Threading.Tasks;
 #endif
 
 namespace FlacBox
