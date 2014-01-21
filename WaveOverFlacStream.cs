@@ -55,6 +55,7 @@ namespace FlacBox
 
             this.dataSource = ReadFlac(reader);
             this.mode = WaveOverFlacStreamMode.Decode;
+            EnsureHeaderRead();
         }
 
         public WaveOverFlacStream(FlacWriter writer)
